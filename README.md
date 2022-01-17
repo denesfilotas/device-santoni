@@ -1,8 +1,13 @@
 # Device Tree for Xiaomi Redmi 4X (santoni)
 
 ## Notes
-For camera and fingerprint to work, libstdc++ is needed to be vendor available. See [here](https://review.lineageos.org/c/LineageOS/android_bionic/+/256148).
-Snap camera is not available in arcadia branch, clone previous version to packages/apps or go with AOSP Camera2.
+- For camera and fingerprint to work, libstdc++ is needed to be vendor available. See [here](https://review.lineageos.org/c/LineageOS/android_bionic/+/256148).
+- Snap camera is not available in arcadia branch, clone previous version to packages/apps or go with AOSP Camera2.
+
+## Automatic sideload when building on a local machine
+You can build the source with the `blissify` command. If the build is successful, you can `adb sideload` using the `nom` command. Later on, `nomnom` can be used to build and sideload automatically. These commands are to replace the Bliss default `eat` and `omnom`, because they seem to be broken.
+
+
 
 ## Spec Sheet
 
