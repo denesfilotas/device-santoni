@@ -1,5 +1,9 @@
 # Device Tree for Xiaomi Redmi 4X (santoni)
 
+## Notes
+For camera and fingerprint to work, libstdc++ is needed to be vendor available. See [here](https://review.lineageos.org/c/LineageOS/android_bionic/+/256148).
+Snap camera is not available in arcadia branch, clone previous version to packages/apps or go with AOSP Camera2.
+
 ## Spec Sheet
 
 | Feature                 | Specification                     |
