@@ -1,0 +1,21 @@
+//
+// Copyright (C) 2017-2020 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "Dirac",
+
+    srcs: ["src/**/*.java"],
+    resource_dirs: ["res"],
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+    privileged: true,
+    overrides: ["AudioFX"],
+
+    static_libs: [
+        "org.lineageos.settings.resources",
+    ],
+}

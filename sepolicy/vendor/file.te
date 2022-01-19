@@ -31,6 +31,9 @@ type debugfs_rmt, debugfs_type, fs_type;
 # Sensors
 type persist_sensors_file, file_type, vendor_persist_type;
 
+# Sockets
+type audio_socket, file_type;
+
 # slub-debug
 type vendor_sysfs_slab_zshandle_storeuser, fs_type, sysfs_type;
 type vendor_sysfs_slab_zspage_storeuser, fs_type, sysfs_type;

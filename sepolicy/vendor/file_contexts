@@ -62,6 +62,9 @@
 # Sensors
 /(mnt/vendor)/persist/sensors(/.*)?                                     u:object_r:persist_sensors_file:s0
 
+# Sockets
+/dev/socket/audio_hw_socket                         u:object_r:audio_socket:s0
+
 # Sys files
 /sys/devices/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?		u:object_r:sysfs_leds:s0
 /sys/devices/soc/78b7000\.i2c/i2c-3/3-[0-9a-f]+/disable_keys            u:object_r:proc_touchpanel:s0
