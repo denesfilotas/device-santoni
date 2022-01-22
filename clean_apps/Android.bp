@@ -1,0 +1,15 @@
+android_app {
+    name: "CleanApps",
+    platform_apis: true,
+    srcs: [],
+    overrides: [
+        "AmbientSensePrebuilt",
+        "Flipendo",
+        "Phonograph",
+        "GoogleCamera",
+        "YouTubeMusicPrebuilt",
+        "arcore",
+        "MaestroPrebuilt",
+        "SafetyHubPrebuilt",
+    ],
+}
