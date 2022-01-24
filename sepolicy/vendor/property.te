@@ -10,5 +10,12 @@ vendor_restricted_prop(dirac_prop)
 # Fingerprint
 vendor_internal_prop(vendor_fingerprint_prop)
 
+# Init
+vendor_internal_prop(vendor_init_prop)
+
 # Radio
 vendor_internal_prop(persist_sensors_radio_prop)
+vendor_restricted_prop(vendor_imsradio_prop)
+
+# Wifi
+vendor_internal_prop(vendor_wifi_prop)
